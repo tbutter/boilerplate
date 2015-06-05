@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "boilerplate",
+  "description": "boilerplate",
+  "version": "0.1",
+  "incognito": "spanning",
+   "background": {
+	  "scripts": ["background.js"],
+	  "persistent": false
+  },
+  "options_ui": {
+      "page": "options.html",
+      "chrome_style": true
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "contextMenus"
+  ]
+}
